@@ -1,0 +1,96 @@
+
+.content {
+  background-color: #ffe25a;
+  height: 100vh;
+  overflow: hidden;
+}
+.nav .nav-back {
+  width: 54rpx;
+  height: 54rpx;
+  margin-left: 76rpx;
+  margin-top: 74rpx;
+  vertical-align: top;
+}
+.nav .nav-logo {
+  width: 210rpx;
+  height: 96rpx;
+  margin-top: 74rpx;
+  float: right;
+  margin-right: 38rpx;
+}
+.input-group {
+  margin-top: 22.9vh;
+}
+.input-group .input-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 3.3%;
+}
+.input-group .input-row ._input {
+  color: #ffffff;
+  border-bottom: 4rpx solid #fff;
+  margin-left: 20rpx;
+  letter-spacing: 4rpx;
+  vertical-align: middle;
+  height: 60rpx;
+}
+.title {
+  background-color: #ffffff;
+  width: 20%;
+  height: 70rpx;
+  border-radius: 6rpx;
+  color: #FFE25A;
+  text-align: center;
+  font-size: .8em;
+  line-height: 70rpx;
+}
+.primary {
+  background-color: #FFE25A;
+  width: 24%;
+  height: 80rpx;
+  color: #ffffff;
+  line-height: 80rpx;
+  border: 2rpx solid #ffffff;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn-row {
+  margin-top: 8.99%;
+  margin-bottom: 7.5vh;
+}
+.logo-container {
+  text-align: center;
+  height: 10vh;
+  margin-top: 23.9vh;
+}
+.logo {
+  position: relative;
+  width: 55.2%;
+  height: 134rpx;
+}
+.btn-row {
+  margin-top: 8.99%;
+  margin-bottom: 7.5vh;
+}
+.action-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  width: 100%;
+}
+.action-row navigator {
+  color: #ffffff;
+  padding: 0 20px;
+}

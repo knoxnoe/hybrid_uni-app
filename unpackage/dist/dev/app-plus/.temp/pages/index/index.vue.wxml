@@ -1,0 +1,8 @@
+<template name="2397654a">
+  <view class="_view data-v-4d9a50bd content">
+    <image class="_image data-v-4d9a50bd logo" src="../../static/logo.png"></image>
+    <view class="_view data-v-4d9a50bd">
+      <text class="_text data-v-4d9a50bd title">{{title}}</text>
+    </view>
+  </view>
+</template>

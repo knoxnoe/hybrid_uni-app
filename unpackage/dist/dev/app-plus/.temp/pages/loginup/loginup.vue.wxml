@@ -1,0 +1,10 @@
+<template name="375c96a4">
+  <view class="_view data-v-e603e43e">
+    <page-head title="{{title}}" class="_page-head data-v-e603e43e"></page-head>
+    <view class="_view data-v-e603e43e uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-e603e43e uni-center">
+        <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls class="_audio data-v-e603e43e"></audio>
+      </view>
+    </view>
+  </view>
+</template>

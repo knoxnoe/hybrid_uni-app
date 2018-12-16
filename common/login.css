@@ -1,0 +1,61 @@
+	.content{
+		background-color: #ffe25a;
+		height: 100vh;
+		overflow: hidden;
+	}
+	.nav .nav-back{
+		width:54upx;
+		height: 54upx;
+		margin-left:76upx;
+		margin-top:74upx;
+		vertical-align: top;
+	}
+	.nav .nav-logo{
+		width: 210upx;
+		height: 96upx;
+		margin-top:74upx;
+		float: right;
+		margin-right:38upx;
+	}
+	.input-group{
+		margin-top: 22.9vh;
+	}
+	.input-group .input-row{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3.3%;
+	}
+	.input-group .input-row input{
+		color:#ffffff;
+		border-bottom: 4upx solid #fff;
+		margin-left: 20upx;
+		letter-spacing: 4upx;
+		vertical-align: middle;
+		height: 60upx;
+	}
+	.title{
+		background-color: #ffffff;
+		width: 20%;
+		height: 70upx;
+		border-radius: 6upx;
+		color: #FFE25A;
+		text-align: center;
+		font-size: .8em;
+		line-height: 70upx;
+	}
+	.primary{
+		background-color: #FFE25A;
+		width: 24%;
+		height: 80upx;
+		color: #ffffff;
+		line-height: 80upx;
+		border: 2upx solid #ffffff;
+		border-radius: 10upx;
+		box-sizing: border-box;
+		text-align: center;
+		margin:0 auto;
+	}
+	.btn-row{
+		margin-top: 8.99%;
+		margin-bottom: 7.5vh;
+	}

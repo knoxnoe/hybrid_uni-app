@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"content { background-color: #ffe25a; height: 100vh; overflow: hidden; }\n.",[1],"nav .",[1],"nav-back { width: ",[0,54],"; height: ",[0,54],"; margin-left: ",[0,76],"; margin-top: ",[0,74],"; vertical-align: top; }\n.",[1],"nav .",[1],"nav-logo { width: ",[0,210],"; height: ",[0,96],"; margin-top: ",[0,74],"; float: right; margin-right: ",[0,38],"; }\n.",[1],"input-group { margin-top: 22.9vh; }\n.",[1],"input-group .",[1],"input-row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; margin-bottom: 3.3%; }\n.",[1],"input-group .",[1],"input-row .",[1],"_input { color: #ffffff; border-bottom: ",[0,4]," solid #fff; margin-left: ",[0,20],"; letter-spacing: ",[0,4],"; vertical-align: middle; height: ",[0,60],"; }\n.",[1],"title { background-color: #ffffff; width: 20%; height: ",[0,70],"; border-radius: ",[0,6],"; color: #FFE25A; text-align: center; font-size: .8em; line-height: ",[0,70],"; }\n.",[1],"primary { background-color: #FFE25A; width: 24%; height: ",[0,80],"; color: #ffffff; line-height: ",[0,80],"; border: ",[0,2]," solid #ffffff; border-radius: ",[0,10],"; box-sizing: border-box; text-align: center; margin: 0 auto; }\n.",[1],"btn-row { margin-top: 8.99%; margin-bottom: 7.5vh; }\n.",[1],"checkpic { border: 2px solid #fff; height: 35px; color: #fff; line-height: 35px; text-align: center; font-size: .9em; border-radius: 5px; position: absolute; z-index: 3; background-color: #ffe25a; right: 13%; padding: 0 15px; box-sizing: border-box; }\n.",[1],"checkpic:before { content: \x22 \x22; width: 10px; height: 35px; position: absolute; left: -12px; background-color: #FFE25A; }\n.",[1],"checkpic:after { content: \x22 \x22; width: ",[0,40],"; height: ",[0,70],"; position: absolute; margin-left: 17px; background-color: #FFE25A; }\n.",[1],"btn-row { margin-top: 8.99%; margin-bottom: 7.5vh; }\n.",[1],"footer { margin-top: 40vh; text-align: center; }\n.",[1],"footer wx-image { width: ",[0,200],"; height: ",[0,64],"; }\n",],undefined,{path:"./pages/forgetpw/forgetpw.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/forgetpw/forgetpw.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

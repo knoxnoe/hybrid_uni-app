@@ -1,0 +1,24 @@
+<template name="13e08390">
+  <view class="_view data-v-2012a9ab content">
+    <view class="_view data-v-2012a9ab logo-container">
+      <image class="_image data-v-2012a9ab logo" src="../../static/logo.png"></image>
+    </view>
+    <view class="_view data-v-2012a9ab input-group">
+      <view class="_view data-v-2012a9ab input-row border">
+        <text class="_text data-v-2012a9ab title">账号</text>
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" placeholder-style="color:#fff;" data-eventid="{{'AAF-0'}}" data-comkey="{{$k}}" class="_input data-v-2012a9ab" />
+      </view>
+      <view class="_view data-v-2012a9ab input-row">
+        <text class="_text data-v-2012a9ab title">密码</text>
+        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" placeholder-style="color:#fff;" data-eventid="{{'D7l-1'}}" data-comkey="{{$k}}" class="_input data-v-2012a9ab" />
+      </view>
+    </view>
+    <view class="_view data-v-2012a9ab btn-row">
+      <view class="_view data-v-2012a9ab primary" bindtap="handleProxy" data-eventid="{{'Ff9-2'}}" data-comkey="{{$k}}">登入</view>
+    </view>
+    <view class="_view data-v-2012a9ab action-row">
+      <navigator url="../signup/signup" class="_navigator data-v-2012a9ab">注册账号</navigator>
+      <navigator url="../forgetpw/forgetpw" class="_navigator data-v-2012a9ab">忘记密码</navigator>
+    </view>
+  </view>
+</template>
