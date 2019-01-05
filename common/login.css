@@ -1,5 +1,5 @@
 	.content{
-		background-color: #ffe25a;
+		background: linear-gradient(to bottom, #01d1ff, #7455ff 80%);
 		height: 100vh;
 		overflow: hidden;
 	}
@@ -18,7 +18,7 @@
 		margin-right:38upx;
 	}
 	.input-group{
-		margin-top: 22.9vh;
+		margin-top:200upx;
 	}
 	.input-group .input-row{
 		display: flex;
@@ -37,14 +37,14 @@
 		background-color: #ffffff;
 		width: 20%;
 		height: 70upx;
-		border-radius: 6upx;
-		color: #FFE25A;
+		border-radius: 12upx;
+		color: #7455FF;
 		text-align: center;
 		font-size: .8em;
 		line-height: 70upx;
 	}
 	.primary{
-		background-color: #FFE25A;
+		background-color: #7455ff;
 		width: 24%;
 		height: 80upx;
 		color: #ffffff;

@@ -1,0 +1,29 @@
+<template name="81ecd1f2">
+  <view class="_view data-v-6134fe06 content">
+    <view class="_view data-v-6134fe06 state"></view>
+    <view class="_view data-v-6134fe06 noe_content">
+      <image class="_image data-v-6134fe06 bg_top" src="../../static/images/bg_top.png"></image>
+      <view class="_view data-v-6134fe06 sub_content">
+        <view class="_view data-v-6134fe06 noe_nav">
+          <view class="_view data-v-6134fe06 noe_pos">
+            <image src="../../static/images/pos.png" class="_image data-v-6134fe06"></image>
+            <text class="_text data-v-6134fe06">中国石油大学（华东）</text>
+          </view>
+          <view class="_view data-v-6134fe06">
+            <text class="_text data-v-6134fe06">切换同城版</text>
+          </view>
+        </view>
+        <view class="_view data-v-6134fe06 noe_search">
+          <input placeholder="这是一个可以自动聚焦的input" class="_input data-v-6134fe06" />
+        </view>
+        <view class="_view data-v-6134fe06 noe_sw">
+          <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-6134fe06">
+            <swiper-item wx:key="item" key="{{item}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-6134fe06">
+              <image class="_image data-v-6134fe06 sw" src="{{item}}"></image>
+            </swiper-item>
+          </swiper>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,7 +1,7 @@
 <template>
     <view class="content">
 		<view class="nav">
-			<image class="nav-back" src="../../static/back.png" @tap="back"></image>
+			<image class="nav-back" src="../../static/images/back.png" @tap="back"></image>
 			<image class="nav-logo" src="../../static/xungou.png"></image>
 		</view>
         <view class="input-group">
@@ -40,22 +40,29 @@
 
 <style>
 	@import "../../common/login.css";
-	
+	.input-group{
+		margin-top: 20vh;
+	}
+	.nav{
+		overflow: hidden;
+	}
 	.checkpic{
 		border: 2px solid #fff;
 		height: 35px;
 		color: #fff;
-		line-height: 35px;
+		line-height: 33px;
 		text-align: center;
-		font-size: .9em;
+		font-size: .8em;
 		border-radius: 5px;
 		/* display: none; */
 		position: absolute;
 		z-index: 3;
-		background-color: #ffe25a;
+		background-color: #4983ff;
 		right: 13%;
 		padding: 0 15px;
 	    box-sizing: border-box;
+		font-weight: lighter;
+		font-family: sans-serif;
 	}
 	.checkpic:before{
 		content: " ";
@@ -63,7 +70,7 @@
 		height: 70upx;
 		position: absolute;
 		left: -24upx;
-		background-color: #FFE25A;
+		background-color: #4983ff;
 	}
 	.checkpic:after{
 		content: " ";
@@ -71,7 +78,7 @@
 		height: 70upx;
 		position: absolute;
 		margin-left:34upx;
-		background-color: #FFE25A;
+		background-color: #4983ff;
 	}
 	uni-input div{
 		width:100%;
@@ -82,7 +89,9 @@
 		margin-left: -48upx;
 	}
 	.btn-row{
-		margin-top: 8.99%;
-		margin-bottom: 7.5vh;
+		margin-top: 25vh;
+	}
+	.title{
+		color:#577bff;
 	}
 </style>

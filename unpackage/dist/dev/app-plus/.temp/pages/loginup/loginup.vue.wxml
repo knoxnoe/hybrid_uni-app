@@ -1,9 +1,9 @@
-<template name="375c96a4">
-  <view class="_view data-v-e603e43e">
-    <page-head title="{{title}}" class="_page-head data-v-e603e43e"></page-head>
-    <view class="_view data-v-e603e43e uni-padding-wrap uni-common-mt">
-      <view class="_view data-v-e603e43e uni-center">
-        <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls class="_audio data-v-e603e43e"></audio>
+<template name="209b8e57">
+  <view class="_view data-v-5fc53cf2">
+    <page-head title="{{title}}" class="_page-head data-v-5fc53cf2"></page-head>
+    <view class="_view data-v-5fc53cf2 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-5fc53cf2 uni-center">
+        <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls class="_audio data-v-5fc53cf2"></audio>
       </view>
     </view>
   </view>

@@ -1,0 +1,61 @@
+
+.state {
+  width: 100%;
+  height: 42rpx;
+  background-color: #7455ff;
+}
+.bg_top {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-top: -1rpx;
+  height: 480rpx;
+}
+.sub_content {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: san-serf;
+}
+.noe_nav {
+  padding-top: 50rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.noe_nav view {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  vertical-align: top;
+}
+.noe_pos image {
+  width: 20px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.noe_nav text {
+  color: #FFFFFF;
+}
+.noe_search {
+  margin-top: 40rpx;
+}
+.noe_search ._input {
+  background-color: #ffffff;
+  border-radius: 200rpx;
+  padding-left: 10rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.noe_sw {
+  margin-top: 40rpx;
+}
+.noe_sw image {
+  width: 100%;
+  height: 100%;
+}

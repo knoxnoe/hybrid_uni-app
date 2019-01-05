@@ -1,44 +1,51 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/login/login",
-			"style": {
-				"app-plus": {
-					"titleNView": false //禁用原生导航栏
-				}
-			}
+			"path": "pages/index_home/index"
 		},{
-			"path": "pages/signup/signup",
-			"style": {
-				"app-plus": {
-					"titleNView": false //禁用原生导航栏
-				}
-			}
+			"path": "pages/index_video/index"
 		},{
-			"path": "pages/forgetpw/forgetpw",
-			"style": {
-				"app-plus": {
-					"titleNView": false //禁用原生导航栏
-				}
-			}
+			"path": "pages/index_message/index"
 		},{
-			"path": "pages/index/index"
+			"path": "pages/index_cart/index"
+		},{
+			"path": "pages/index_me/index"
+		},{
+			"path": "pages/signup/signup"
+		},{
+			"path": "pages/forgetpw/forgetpw"
+		},{
+			"path": "pages/login/login"
 		},{
 			"path": "pages/loginup/loginup"
 		}
 	],
+	"condition": { //模式配置，仅开发期间生效
+        "current": 0, //当前激活的模式（list 的索引项）
+        "list": [{
+            "name": "test", //模式名称
+            "path": "pages/login/login" //启动页面，必选
+        }]
+    },
 	"tabBar": {
-		"list": [{
-		  "pagePath": "pages/index/index",
-		  "text": "首页"
-		},{
-		  "pagePath": "pages/loginup/loginup",
-		  "text": "注册"
-		}]
+		"color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "orange",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "static/images/cart.png",
+            "selectedIconPath": "static/images/cart.png"
+        }, {
+            "pagePath": "pages/loginup/loginup",
+            "iconPath": "static/images/home.png",
+            "selectedIconPath": "static/images/me.png"
+        }]
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#ffe25a",
-		"backgroundColor": "#ffe25a"
+		"backgroundColor": "#ffe25a",
+		"navigationStyle": "custom"
 	}
 }

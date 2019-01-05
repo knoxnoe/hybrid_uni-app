@@ -1,6 +1,7 @@
 
 .content {
-  background-color: #ffe25a;
+  background: -webkit-linear-gradient(top, #01d1ff, #7455ff 80%);
+  background: linear-gradient(to bottom, #01d1ff, #7455ff 80%);
   height: 100vh;
   overflow: hidden;
 }
@@ -19,7 +20,7 @@
   margin-right: 38rpx;
 }
 .input-group {
-  margin-top: 22.9vh;
+  margin-top: 200rpx;
 }
 .input-group .input-row {
   display: -webkit-box;
@@ -42,14 +43,14 @@
   background-color: #ffffff;
   width: 20%;
   height: 70rpx;
-  border-radius: 6rpx;
-  color: #FFE25A;
+  border-radius: 12rpx;
+  color: #7455FF;
   text-align: center;
   font-size: .8em;
   line-height: 70rpx;
 }
 .primary {
-  background-color: #FFE25A;
+  background-color: #7455ff;
   width: 24%;
   height: 80rpx;
   color: #ffffff;
@@ -64,20 +65,28 @@
   margin-top: 8.99%;
   margin-bottom: 7.5vh;
 }
+.input-group {
+  margin-top: 20vh;
+}
+.nav {
+  overflow: hidden;
+}
 .checkpic {
   border: 2px solid #fff;
   height: 35px;
   color: #fff;
-  line-height: 35px;
+  line-height: 33px;
   text-align: center;
-  font-size: .9em;
+  font-size: .8em;
   border-radius: 5px;
   position: absolute;
   z-index: 3;
-  background-color: #ffe25a;
+  background-color: #4983ff;
   right: 13%;
   padding: 0 15px;
   box-sizing: border-box;
+  font-weight: lighter;
+  font-family: sans-serif;
 }
 .checkpic:before {
   content: " ";
@@ -85,7 +94,7 @@
   height: 70rpx;
   position: absolute;
   left: -24rpx;
-  background-color: #FFE25A;
+  background-color: #4983ff;
 }
 .checkpic:after {
   content: " ";
@@ -93,7 +102,7 @@
   height: 70rpx;
   position: absolute;
   margin-left: 34rpx;
-  background-color: #FFE25A;
+  background-color: #4983ff;
 }
 uni-input ._div {
   width: 100%;
@@ -104,6 +113,8 @@ uni-input ._div {
   margin-left: -48rpx;
 }
 .btn-row {
-  margin-top: 8.99%;
-  margin-bottom: 7.5vh;
+  margin-top: 25vh;
+}
+.title {
+  color: #577bff;
 }

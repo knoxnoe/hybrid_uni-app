@@ -1,7 +1,7 @@
 <template>
     <view class="content">
 		<view class="nav">
-			<image class="nav-back" src="../../static/back.png" @tap="back"></image>
+			<image class="nav-back" src="../../static/images/back.png" @tap="back"></image>
 			<!-- <image class="nav-logo" src="../../static/xungou.png"></image> -->
 		</view>
         <view class="input-group">
@@ -16,7 +16,7 @@
             </view>
         </view>
 		<view class="footer">
-			<image src="../../static/logo.png"></image>
+			<image src="../../static/images/logo.png"></image>
 		</view>
     </view>
 </template>
@@ -51,16 +51,18 @@
 		border: 2px solid #fff;
 		height: 35px;
 		color: #fff;
-		line-height: 35px;
+		line-height: 33px;
 		text-align: center;
 		font-size: .9em;
 		border-radius: 5px;
 		position: absolute;
 		z-index: 3;
-		background-color: #ffe25a;
+		background-color: #339bff;
 		right: 13%;
 		padding: 0 15px;
 		box-sizing: border-box;
+		font-weight: lighter;
+		font-family: sans-serif;
 	}
 	.checkpic:before{
 		content: " ";
@@ -68,7 +70,7 @@
 		height: 35px;
 		position: absolute;
 		left: -12px;
-		background-color: #FFE25A;
+		background-color: #339bff;
 	}
 	.checkpic:after{
 		content: " ";
@@ -76,11 +78,14 @@
 		height: 70upx;
 		position: absolute;
 		margin-left:17px;
-		background-color: #FFE25A;
+		background-color: #339bff;
 	}
 	.btn-row{
 		margin-top: 8.99%;
 		margin-bottom: 7.5vh;
+	}
+	.title{
+		color:#577bff;
 	}
 	.footer{
 		margin-top:40vh;

@@ -1,7 +1,7 @@
-	<template>
+<template>
     <view class="content">
 		<view class="logo-container">
-			<image class="logo" src="../../static/logo.png"></image>
+			<image class="logo" src="../../static/images/logo.png"></image>
 		</view>
         <view class="input-group">
             <view class="input-row border">
@@ -39,9 +39,9 @@
                 positionTop: 0
             }
         },
-        computed: mapState(['forcedLogin']),
+        // computed: mapState(['forcedLogin']),
         methods: {
-            ...mapMutations(['login']),
+            // ...mapMutations(['login']),
 //             initProvider() {
 //                 const filters = ['weixin', 'qq', 'sinaweibo'];
 //                 uni.getProvider({
@@ -69,13 +69,16 @@
                  * 使用 absolute 定位，并且设置 bottom 值进行定位。软键盘弹出时，底部会因为窗口变化而被顶上来。
                  * 反向使用 top 进行定位，可以避免此问题。
                  */
-                this.positionTop = uni.getSystemInfoSync().windowHeight - 100;
+                // this.positionTop = uni.getSystemInfoSync().windowHeight - 100;
             },
             bindLogin() {
                 /**
                  * 客户端对账号信息进行一些必要的校验。
                  * 实际开发中，根据业务需要进行处理，这里仅做示例。
                  */
+				uni.reLaunch({
+					url: '../index_home/index'
+				});
                 if (this.account.length < 5) {
                     uni.showToast({
                         icon: 'none',
@@ -159,17 +162,15 @@
 	@import "../../common/login.css";
 	.logo-container{
 		text-align: center;
-		height: 10vh;
-		margin-top: 23.9vh;
 	}
 	.logo{
-		position: relative;
-		width:55.2%;
-		height: 134upx;
+		width: 400upx;
+		height: 130upx;
+		margin-top: 20vh;
 	}
 	.btn-row{
-		margin-top: 8.99%;
-		margin-bottom: 7.5vh;
+		margin-top: 13vh;
+		margin-bottom: 12.5vh;
 	}
     .action-row {
         display: flex;
@@ -181,6 +182,7 @@
     .action-row navigator {
         color: #ffffff;
         padding: 0 20px;
+		font-size: 26upx;
     }
 
    /* .oauth-row {

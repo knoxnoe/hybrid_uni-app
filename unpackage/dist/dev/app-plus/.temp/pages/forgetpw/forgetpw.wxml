@@ -1,1 +1,1 @@
-<import src="/pages/forgetpw/forgetpw.vue.wxml" /><template is="08ac2544" data="{{ ...$root['0'], $root }}"/>
+<import src="/pages/forgetpw/forgetpw.vue.wxml" /><template is="4ce400c7" data="{{ ...$root['0'], $root }}"/>
