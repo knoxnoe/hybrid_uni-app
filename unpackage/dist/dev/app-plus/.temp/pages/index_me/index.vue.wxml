@@ -1,3 +1,16 @@
 <template name="22a4eb00">
-  <view class="_view data-v-484ff302"></view>
+  <view class="_view data-v-484ff302 body-view">
+    <scroll-view class="_scroll-view data-v-484ff302 top-menu-view" scroll-x="true" scroll-left="{{scrollLeft}}">
+      <block wx:key="index" key="{{index}}" wx:for="{{menuTabs}}" wx:for-index="index" wx:for-item="menuTab">
+        <view class="_view data-v-484ff302 menu-one-view" id="{{'tabNum'+index}}">
+          <view class="_view data-v-484ff302 {{[currentTab == index ? 'menu-one-act' : 'menu-one']}}">
+            <view class="_view data-v-484ff302 menu-one-txt">{{menuTab.name}}</view>
+            <view class="_view data-v-484ff302 menu-one-bottom">
+              <view class="_view data-v-484ff302 menu-one-bottom-color"></view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
 </template>

@@ -1,12 +1,12 @@
 <template name="4ce400c7">
   <view class="_view data-v-2f50c0e8 content">
     <view class="_view data-v-2f50c0e8 nav">
-      <image class="_image data-v-2f50c0e8 nav-back" src="../../static/images/back.png" bindtap="handleProxy" data-eventid="{{'aGZ-0'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-2f50c0e8 nav-back" src="../../static/images/back.png" bindtap="handleProxy" data-eventid="{{'ykt-0'}}" data-comkey="{{$k}}"></image>
     </view>
     <view class="_view data-v-2f50c0e8 input-group">
       <view class="_view data-v-2f50c0e8 input-row border">
         <text class="_text data-v-2f50c0e8 title">手机号</text>
-        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" placeholder-style="color:#fff;" data-eventid="{{'Dlg-1'}}" data-comkey="{{$k}}" class="_input data-v-2f50c0e8" />
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" placeholder-style="color:#fff;" data-eventid="{{'pwj-1'}}" data-comkey="{{$k}}" class="_input data-v-2f50c0e8" />
       </view>
       <view class="_view data-v-2f50c0e8 input-row">
         <text class="_text data-v-2f50c0e8 title">验证码</text>

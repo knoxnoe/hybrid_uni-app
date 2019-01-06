@@ -1,7 +1,7 @@
 <template name="baee5872">
   <view class="_view data-v-52ae38b0 content">
     <view class="_view data-v-52ae38b0 nav">
-      <image class="_image data-v-52ae38b0 nav-back" src="../../static/images/back.png" bindtap="handleProxy" data-eventid="{{'vq3-0'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-52ae38b0 nav-back" src="../../static/images/back.png" bindtap="handleProxy" data-eventid="{{'WtB-0'}}" data-comkey="{{$k}}"></image>
       <image class="_image data-v-52ae38b0 nav-logo" src="../../static/xungou.png"></image>
     </view>
     <view class="_view data-v-52ae38b0 input-group">
@@ -21,7 +21,7 @@
       </view>
     </view>
     <view class="_view data-v-52ae38b0 btn-row">
-      <view class="_view data-v-52ae38b0 primary" bindtap="handleProxy" data-eventid="{{'9RP-1'}}" data-comkey="{{$k}}">完成</view>
+      <view class="_view data-v-52ae38b0 primary" bindtap="handleProxy" data-eventid="{{'mAG-1'}}" data-comkey="{{$k}}">完成</view>
     </view>
   </view>
 </template>

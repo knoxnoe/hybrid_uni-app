@@ -4,26 +4,71 @@
     <view class="_view data-v-6134fe06 noe_content">
       <image class="_image data-v-6134fe06 bg_top" src="../../static/images/bg_top.png"></image>
       <view class="_view data-v-6134fe06 sub_content">
-        <view class="_view data-v-6134fe06 noe_nav">
-          <view class="_view data-v-6134fe06 noe_pos">
-            <image src="../../static/images/pos.png" class="_image data-v-6134fe06"></image>
-            <text class="_text data-v-6134fe06">中国石油大学（华东）</text>
+        <view class="_view data-v-6134fe06 noe_fixed">
+          <image class="_image data-v-6134fe06 bg_fixed" src="../../static/images/bg_fixed.png"></image>
+          <view class="_view data-v-6134fe06 noe_nav">
+            <view class="_view data-v-6134fe06 noe_pos">
+              <image src="../../static/images/pos.png" class="_image data-v-6134fe06"></image>
+              <text class="_text data-v-6134fe06">中国石油大学（华东）</text>
+            </view>
+            <view class="_view data-v-6134fe06">
+              <text class="_text data-v-6134fe06">切换同城版</text>
+            </view>
           </view>
-          <view class="_view data-v-6134fe06">
-            <text class="_text data-v-6134fe06">切换同城版</text>
+          <view class="_view data-v-6134fe06 noe_search">
+            <input placeholder="这是一个可以自动聚焦的input" class="_input data-v-6134fe06" />
           </view>
         </view>
-        <view class="_view data-v-6134fe06 noe_search">
-          <input placeholder="这是一个可以自动聚焦的input" class="_input data-v-6134fe06" />
+        <view class="_view data-v-6134fe06 noe_scroll">
+          <view class="_view data-v-6134fe06 noe_sw">
+            <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-6134fe06">
+              <swiper-item wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-6134fe06">
+                <image class="_image data-v-6134fe06 sw" src="{{item}}"></image>
+              </swiper-item>
+            </swiper>
+          </view>
+          <view class="_view data-v-6134fe06 noe_type">
+            <view class="_view data-v-6134fe06 type" wx:for="{{typesList}}" wx:for-index="index" wx:for-item="item">
+              <image src="{{item.src}}" class="_image data-v-6134fe06"></image>
+              <text class="_text data-v-6134fe06">{{item.type}}</text>
+            </view>
+          </view>
+          <view class="_view data-v-6134fe06 noe_country">
+            <view class="_view data-v-6134fe06 coun_title">
+              <image src="../../static/images/dec.png" class="_image data-v-6134fe06"></image>
+              <text class="_text data-v-6134fe06">发现同城好店</text>
+              <image src="../../static/images/dec.png" class="_image data-v-6134fe06"></image>
+            </view>
+          </view>
         </view>
-        <view class="_view data-v-6134fe06 noe_sw">
-          <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-6134fe06">
-            <swiper-item wx:key="item" key="{{item}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-6134fe06">
-              <image class="_image data-v-6134fe06 sw" src="{{item}}"></image>
-            </swiper-item>
-          </swiper>
+        <view class="_view data-v-6134fe06 noe_hswiper">
+          <scroll-view class="_scroll-view data-v-6134fe06 top-menu-view" scroll-x="true" scroll-left="{{scrollLeft}}">
+            <block wx:key="index" key="{{index}}" wx:for="{{menuTabs}}" wx:for-index="index" wx:for-item="menuTab">
+              <view class="_view data-v-6134fe06 menu-one-view" id="{{'tabNum'+index}}">
+                <image class="_image data-v-6134fe06 img" src="../../static/images/test.png"></image>
+                <view class="_view data-v-6134fe06 circle"></view>
+                <text class="_text data-v-6134fe06">KNOX NOE男装</text>
+              </view>
+            </block>
+          </scroll-view>
+        </view>
+        <view class="_view data-v-6134fe06 noe_push">
+          <view class="_view data-v-6134fe06 coun_title">
+            <image src="../../static/images/dec.png" class="_image data-v-6134fe06"></image>
+            <text class="_text data-v-6134fe06">为你推荐</text>
+            <image src="../../static/images/dec.png" class="_image data-v-6134fe06"></image>
+          </view>
+          <view class="_view data-v-6134fe06 main">
+            <view class="_view data-v-6134fe06 view1" style="background-color: red;"></view>
+            <view class="_view data-v-6134fe06 view2" style="background-color: green;"></view>
+            <view class="_view data-v-6134fe06 view1" style="background-color: pink;"></view>
+            <view class="_view data-v-6134fe06 view2" style="background-color: blue;"></view>
+            <view class="_view data-v-6134fe06 view1" style="background-color: orange;"></view>
+            <view class="_view data-v-6134fe06 view2" style="background-color: #DDDDDD;"></view>
+          </view>
         </view>
       </view>
     </view>
+    <view class="_view data-v-6134fe06 noe_tab"></view>
   </view>
 </template>
